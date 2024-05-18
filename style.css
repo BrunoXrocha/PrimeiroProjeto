@@ -1,53 +1,54 @@
-body {
-  font-family: "Open Sans", sans-serif;
-  text-align: center;
-  margin: 0;
+body{
+    text-align: center;
+    margin: 0;
+    font-weight: normal;
 }
 
-#hero {
-    width: 592px;
-    margin: 72px;
-    margin: auto;
+#planet{
+    width: 460px;
+    margin: 0 auto 65px;
+    
+}
+#planet img{
+    margin-bottom: 32px;
+}
+p{
+    color: #828282;
+    font-size: 15px;
 }
 
- 
-h1 {
-  font-family: "Inter", sans-serif;
-  font-size: 49px;
-  line-height: 56px;
-  font-weight: normal;
+#planet span{
+    font-weight: bold;
+    color: #3F3D56;
+    
 }
 
-h1 span {
-  font-weight: bold;
-
-  margin-bottom: 32px;
+#planet h2 {
+    font-weight: normal;
+    color: #3F3D56;
+    font-family: "Dosis", sans-serif;
 }
 
-span, a {
-  color: #ff9900;
+#planet h2 span{
+    font-weight: bold;
+    color: #EE24FF;
 }
 
-p, #footer {
-  color: #7d7987;
-  font-size: 14px;
-  line-height: 28px;
+#footer a{
+    text-decoration: none;
+    color: #3F3D56;
+    font-weight: bold;
 }
+
 
 #footer a + a {
-    margin-left: 28px;
+    margin-left: 42px;
 }
 
-.line {
-    width: 568px;
+#line{
+    width: 391px;
     height: 0;
 
     margin: 0 auto 8px;
     border: 1px solid #ECEFF2;
-}
-
-#balls {
-    position: fixed;
-    bottom: 0;
-    right: 0;
 }
